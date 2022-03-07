@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+html {
+  background-color: white;
+}
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  12.5% {
+    background-color: red;
+    left: 0;
+    top: 0;
+    height: 500px;
+    width: 50px;
+  }
+  25% {
+    background-color: red;
+    left: 0;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+  }
+  37.5% {
+    background-color: red;
+    left: 0;
+    top: 450px;
+    height: 50px;
+    width: 500px;
+  }
+  50% {
+    background-color: red;
+    left: 400px;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+  }
+  62.5% {
+    background-color: red;
+    left: 450px;
+    top: 0;
+    transform: inherit;
+    height: 500px;
+    width: 50px;
+    animation-direction: unset;
+  }
+  75% {
+    background-color: red;
+    left: 400px;
+    top: 0;
+    height: 100px;
+    width: 100px;
+  }
+  87.5% {
+    background-color: red;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 500px;
+  }
+  100% {
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  transition: 1s;
+  position: relative;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#Container {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
